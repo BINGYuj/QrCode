@@ -12,6 +12,11 @@ import java.util.List;
 public class Text {
 
     /**
+     * 是否添加文字，默认不启用 false
+     */
+    private boolean enable = false;
+
+    /**
      * 文字
      * 支持多行
      */
@@ -22,13 +27,18 @@ public class Text {
      * 0：居中；1：左；2：右
      * 默认居中
      */
-    private Integer textAlign = 0;
+    private int textAlign = 0;
+
+    /**
+     * 文字与边框距离 默认 2
+     */
+    private int margin = 2;
 
     /**
      * 文字字体大小
      * 默认38
      */
-    private Integer fontSize = 38;
+    private int fontSize = 38;
 
     /**
      * 字体，暂不使用
@@ -44,4 +54,8 @@ public class Text {
      * 默认为黑色
      */
     private String color = "BLACK";
+
+    public static Text create(){
+        return new Text();
+    }
 }

@@ -1,7 +1,7 @@
 package com.bingyucc.qrcode.controller;
 
 import com.bingyucc.qrcode.common.web.JsonResult;
-import com.bingyucc.qrcode.entity.QrCodeDO;
+import com.bingyucc.qrcode.entity.config.QrCodeConfig;
 import com.bingyucc.qrcode.service.QrCodeService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -26,7 +26,7 @@ public class QrCodeController {
     @ApiOperation(value = "获取二维码", tags = {"二维码接口"})
     @PostMapping()
     @ResponseBody
-    public JsonResult a(@RequestBody QrCodeDO qrCodeDO){
-        return JsonResult.ok().setData(qrCodeService.getQrBase64(qrCodeDO));
+    public JsonResult a(@RequestBody QrCodeConfig qrCodeConfig){
+        return JsonResult.ok().setData(qrCodeService.getQrBase64(qrCodeConfig));
     }
 }
