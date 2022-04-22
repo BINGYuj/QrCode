@@ -1,5 +1,5 @@
 {
-  "url" : "http://localhost:8088/rgis/share_preview.html?sensingId=62207db4bcbbf53d2380bdc5&id=db968ee5-cbca-4b20-948a-46ac6e03f7a7",
+  "url" : "http://localhost:xxx/xxx/xxx_xxx.html?xxxId=xxxxxxxxxxxxxxxxxxxxxxx&id=xxxxxxxx-xx-xxxx-xxx-xxxxxxx",
   "code" : {
     "color" : "BLACK",
     "bgColor" : "WHITE",
@@ -15,8 +15,8 @@
     "text" : {
       "enable" : true,
       "text": [
-        "兰渝线-下-K532+763-K533+024-2022年02月28日",
-        "轩盘岭隧道出口至将军岭隧道进口"
+        "聆听博鳌论坛改革开放最强音",
+        "普京叫停强攻背后的N重含义"
       ],
       "textAlign" : 0,
       "fontSize" : 38,
